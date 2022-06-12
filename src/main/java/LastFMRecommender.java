@@ -15,7 +15,6 @@ public class LastFMRecommender implements FMRecommenderInterface {
      *  prints the user1’s friends in
      * common with user2
      *
-     * @param list of int
      */
 
     @Override
@@ -26,8 +25,6 @@ public class LastFMRecommender implements FMRecommenderInterface {
     /**
      *  prints the list of artists listened
      * by both users
-     *
-     * @param list of int
      */
 
     @Override
@@ -35,24 +32,12 @@ public class LastFMRecommender implements FMRecommenderInterface {
         return null;
     }
 
-    /**
-     *  prints the list of top 10 most popular artists listened by all
-     * users
-     *
-     * @param list of int
-     */
 
     @Override
     public int[] listTop10(){
         return null;
     }
     // user-artists.dat
-    /**
-     *   recommends 10 most popular artists listened by
-     * the given user and his/her friends.
-     *
-     * @param list of int
-     */
 
     @Override
     public String[] recommend10(int user){
@@ -62,4 +47,16 @@ public class LastFMRecommender implements FMRecommenderInterface {
 
     // artist.dat
 
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(new File("user_friends.dat"));
+        int[] data = new int[100];
+        int i = 0;
+        while (scanner.hasNextInt()) {
+            data[i++] = scanner.nextInt();
+
+            System.out.println(data[i]);
+
+            scanner.close();
+        }
+    }
 }
