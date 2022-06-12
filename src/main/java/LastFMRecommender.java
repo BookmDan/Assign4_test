@@ -1,13 +1,12 @@
-//
-//package main.java;
-
+// Daniel Oh
+// Performs several methods related to LastFM lists search and relations.
 
 import java.io.*;
 import java.util.*;
-
 public class LastFMRecommender implements FMRecommenderInterface {
     @Override
     public int[] listFriends(int user) {
+        //
         return null;
     }
 
@@ -43,20 +42,53 @@ public class LastFMRecommender implements FMRecommenderInterface {
     public String[] recommend10(int user){
         return null;
     }
-// user-artists.dat
 
-    // artist.dat
+    public void scanMethod(String file) throws FileNotFoundException {
 
-    public static void main(String[] args) throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("user_friends.dat"));
-        int[] data = new int[100];
+        try{
+            BufferedReader buf = new BufferedReader(new FileReader(file));
+            ArrayList<String> words = new ArrayList<>();
+            String lineJustFetched = null;
+            String[] wordsArray;
+
+            while(true){
+                lineJustFetched = buf.readLine();
+                if(lineJustFetched == null){
+                    break;
+                }else{
+                    wordsArray = lineJustFetched.split("\t");
+                    for(String each : wordsArray){
+                        if(!"".equals(each)){
+                            words.add(each);
+                        }
+                    }
+                }
+            }
+
+            for(String each : words){
+                System.out.println(each);
+            }
+
+            buf.close();
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+
+        Scanner scanner = new Scanner(new File(file));
+        int[] data = new int[100000];
         int i = 0;
         while (scanner.hasNextInt()) {
             data[i++] = scanner.nextInt();
 
-            System.out.println(data[i]);
+            //System.out.println(data[i]);
 
             scanner.close();
         }
     }
+// user-artists.dat
+
+    // artist.dat
+
 }
