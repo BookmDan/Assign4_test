@@ -1,15 +1,17 @@
-//
-//package main.java;
+public interface FMRecommenderInterface {
+
+/**
+ * This is an interface for music streaming service
+ *
+ */
 
 
-import java.io.*;
-import java.util.*;
-
-public class LastFMRecommender implements FMRecommenderInterface {
-    @Override
-    public int[] listFriends(int user) {
-        return null;
-    }
+    /**
+     * prints the list of friends of the given user
+     *
+     * @return list of int
+     */
+    int[] listFriends(int user);
 
     /**
      *  prints the user1’s friends in
@@ -18,10 +20,7 @@ public class LastFMRecommender implements FMRecommenderInterface {
      * @param list of int
      */
 
-    @Override
-    public int[]  commonFriends(int user1, int user2){
-        return null;
-    }
+    int[]  commonFriends(int user1, int user2);
 
     /**
      *  prints the list of artists listened
@@ -30,10 +29,7 @@ public class LastFMRecommender implements FMRecommenderInterface {
      * @param list of int
      */
 
-    @Override
-    public int[] listArtists(int user1, int user2){
-        return null;
-    }
+    int[] listArtists(int user1, int user2);
 
     /**
      *  prints the list of top 10 most popular artists listened by all
@@ -42,10 +38,7 @@ public class LastFMRecommender implements FMRecommenderInterface {
      * @param list of int
      */
 
-    @Override
-    public int[] listTop10(){
-        return null;
-    }
+    int[] listTop10();
     // user-artists.dat
     /**
      *   recommends 10 most popular artists listened by
@@ -54,10 +47,7 @@ public class LastFMRecommender implements FMRecommenderInterface {
      * @param list of int
      */
 
-    @Override
-    public String[] recommend10(int user){
-        return null;
-    }
+    String[] recommend10(int user);
 // user-artists.dat
 
     // artist.dat
