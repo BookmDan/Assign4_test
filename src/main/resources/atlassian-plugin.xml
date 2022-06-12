@@ -1,0 +1,32 @@
+<atlassian-plugin key="${project.groupId}.${project.artifactId}" name="${project.name}" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}" />
+        <param name="plugin-icon">images/pluginIcon.png</param>
+        <param name="plugin-logo">images/pluginLogo.png</param>
+    </plugin-info>
+
+    <!-- add our i18n resource -->
+    <resource type="i18n" name="i18n" location="Assign4_test"/>
+    
+    <!-- add our web resources -->
+    <web-resource key="Assign4_test-resources" name="Assign4_test Web Resources">
+        <dependency>com.atlassian.auiplugin:ajs</dependency>
+        
+        <resource type="download" name="Assign4_test.css" location="/css/Assign4_test.css"/>
+        <resource type="download" name="Assign4_test.js" location="/js/Assign4_test.js"/>
+        <resource type="download" name="images/" location="/images"/>
+
+        <context>Assign4_test</context>
+    </web-resource>
+    
+    <!-- publish our component -->
+    <component key="myPluginComponent" class="org.example.MyPluginComponentImpl" public="true">
+        <interface>org.example.MyPluginComponent</interface>
+    </component>
+    
+    <!-- import from the product container -->
+    <component-import key="applicationProperties" interface="com.atlassian.sal.api.ApplicationProperties" />
+    
+</atlassian-plugin>

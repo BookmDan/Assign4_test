@@ -4,23 +4,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b1fd8605-a5dc-4aca-bbbb-25181a35aa29" name="Changes" comment="" />
+=======
+    <list default="true" id="4e0f22ad-599b-48a9-9d4f-d9d016bd5f2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/artists.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LastFMRecommender" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LastFMRecommender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyPluginComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyPluginComponentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Assign4_test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/atlassian-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/Assign4_test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/pluginIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/pluginLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/Assign4_test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LastFMRecommenderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/it/MyComponentWiredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ut/MyComponentUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/atlassian-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user_artists.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user_friends.dat" afterDir="false" />
+    </list>
+>>>>>>> 276f0b6 (first commit 2)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2ASbv4J9kYNQYWg4A5KzqSDdOZS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ASd7WTaIMc7Mn3j4zPqwukGMoL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+>>>>>>> 276f0b6 (first commit 2)
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
+=======
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+>>>>>>> 276f0b6 (first commit 2)
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false"
@@ -29,6 +82,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="b1fd8605-a5dc-4aca-bbbb-25181a35aa29" name="Changes" comment="" />
       <created>1655006160484</created>
       <option name="number" value="Default" />
@@ -37,6 +91,20 @@
     </task>
     <servers />
   </component>
+=======
+      <changelist id="4e0f22ad-599b-48a9-9d4f-d9d016bd5f2b" name="Changes" comment="" />
+      <created>1655006752895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655006752895</updated>
+      <workItem from="1655006754544" duration="146000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+>>>>>>> 276f0b6 (first commit 2)
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -48,4 +116,10 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+>>>>>>> 276f0b6 (first commit 2)
 </project>
