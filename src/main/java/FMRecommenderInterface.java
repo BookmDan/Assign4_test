@@ -11,7 +11,7 @@ public interface FMRecommenderInterface {
      *
      * @return list of int
      */
-    int[] listFriends(int user);
+    int[] listFriends(int userId);
 
     /**
      *  prints the user1’s friends in
